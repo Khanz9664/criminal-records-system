@@ -2,7 +2,7 @@
 
 A professional, enterprise-grade web application for managing police records, cases, and criminal profiles. Built with modern PHP practices, following PSR standards, and implementing security best practices.
 
-## 🚀 Features
+##  Features
 
 ### Core Functionality
 - **Role-Based Access Control (RBAC)**: Secure logins for Admin, Officer, Detective, and Forensics
@@ -25,7 +25,7 @@ A professional, enterprise-grade web application for managing police records, ca
 - ✅ **Error Handling**: Environment-based error reporting
 - ✅ **PSR-4 Autoloading**: Composer-based dependency management
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - **PHP**: 8.1 or higher
 - **Composer**: For dependency management
@@ -33,12 +33,12 @@ A professional, enterprise-grade web application for managing police records, ca
 - **Database**: MySQL 5.7+ or MariaDB 10.3+
 - **Extensions**: PDO, JSON, OpenSSL
 
-## 🛠️ Installation
+##  Installation
 
 ### 1. Clone/Download Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Khanz9664/criminal-records-system
 cd criminal-records-system
 ```
 
@@ -113,7 +113,7 @@ location / {
 
 Navigate to: `http://localhost/criminal-records-system/public`
 
-## 🔐 Default Login Credentials
+##  Default Login Credentials
 
 | Role      | Username   | Password    |
 |-----------|------------|-------------|
@@ -121,9 +121,7 @@ Navigate to: `http://localhost/criminal-records-system/public`
 | **Officer**   | `officer1`   | `password123` |
 | **Detective** | `detective1` | `password123` |
 
-**⚠️ IMPORTANT**: Change default passwords in production!
-
-## 📁 Project Structure
+##  Project Structure
 
 ```
 criminal-records-system/
@@ -150,7 +148,7 @@ criminal-records-system/
 └── README.md           # This file
 ```
 
-## 🏗️ Architecture
+##  Architecture
 
 ### MVC Pattern
 - **Models**: Data access and business logic
@@ -163,7 +161,7 @@ criminal-records-system/
 - **Middleware**: Cross-cutting concerns (auth, security, logging)
 - **Dependency Injection**: Loose coupling via container
 
-## 🔒 Security Features
+##  Security Features
 
 ### Implemented
 - ✅ CSRF token protection
@@ -182,7 +180,7 @@ criminal-records-system/
 - Set up regular backups
 - Configure firewall rules
 
-## 🧪 Testing
+##  Testing
 
 ### Run Tests (when implemented)
 
@@ -249,25 +247,17 @@ $router->post('/route', [Controller::class, 'method'], [
 ]);
 ```
 
-## 📚 API Documentation
+##  API Documentation
 
 API endpoints will be documented here (when REST API is implemented).
 
-## 🤝 Contributing
+##  Author
 
-This is a portfolio project. For suggestions or improvements, please open an issue.
-
-## 📄 License
-
-Proprietary - All rights reserved
-
-## 👨‍💻 Author
-
-Built as a demonstration of enterprise-level PHP development skills.
+**Shahid Ul Islam**
 
 ---
 
-## 🎯 Roadmap
+## Roadmap
 
 ### Phase 1: Foundation ✅
 - [x] Composer integration
@@ -298,6 +288,3 @@ Built as a demonstration of enterprise-level PHP development skills.
 - [ ] CI/CD pipeline
 
 ---
-
-**Version**: 3.0 (Enterprise Edition)  
-**Last Updated**: 2024
