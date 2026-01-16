@@ -118,8 +118,7 @@ Navigate to: `http://localhost/criminal-records-system/public`
 | Role      | Username   | Password    |
 |-----------|------------|-------------|
 | **Admin**     | `admin`      | `password123` |
-| **Officer**   | `officer1`   | `password123` |
-| **Detective** | `detective1` | `password123` |
+| **Shahid**   | `shaddy`   | `1234` |
 
 ##  Project Structure
 
@@ -194,14 +193,14 @@ composer test
 composer analyse
 ```
 
-## 📝 Logging
+##  Logging
 
 Logs are stored in `storage/logs/app.log`. The system uses Monolog with:
 - Daily log rotation (30 days retention)
 - Different log levels (debug, info, warning, error, critical)
 - Structured logging with context
 
-## 🚀 Deployment
+##  Deployment
 
 ### Production Checklist
 
@@ -219,7 +218,7 @@ Logs are stored in `storage/logs/app.log`. The system uses Monolog with:
 
 Docker configuration will be added for easy deployment.
 
-## 🛠️ Development
+##  Development
 
 ### Code Standards
 
